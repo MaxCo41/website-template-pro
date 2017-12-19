@@ -150,6 +150,7 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   width: 100%;
   height: 60px;
   background-color: #131516;
@@ -173,7 +174,7 @@ footer {
 /*fin scss footer*/
 /*début première section*/
 .section1 {
-  background-image: url(image/images/3214321413.jpg);
+  background-image: url("Becode_projects/Ex-Becode/website-template-pro/image/images/3214321413.jpg");
   width: 100%;
   height: 100%;
   h1 {
@@ -234,7 +235,7 @@ footer {
     text-align: center;
     margin-bottom: 30px;
   }
-    .button-setup {
+    .btn-setp {
       -webkit-border-radius: 6;
       -moz-border-radius: 6;
       border-radius: 6px;
@@ -246,6 +247,7 @@ footer {
       text-decoration: none;
       width: 150px;
       text-align: center;
+      color: white;
     }
     img {
       margin-top: 40px;
@@ -359,6 +361,8 @@ footer {
 /*début scss sixième section*/
 .section6 {
   text-align: center;
+  padding-top: 15px;
+  background-color: lightgrey;
   h2 {
     color: grey;
     font-size: 18px;
@@ -373,26 +377,180 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 70%;
-    margin-left: 200px;
-    margin-right: 200px;
+    width: 65%;
+    margin-left: 220px;
+    margin-right: 220px;
     justify-content: space-between;
+    padding-bottom: 30px;
+    padding-top: 20px;
 
     div {
       width: 250px;
       height: 150px;
       display: flex;
       flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 50px;
 
       h3 {
         font-size: 20px;
         margin-bottom: 5px;
         font-weight: bold;
+        color: black;
+        padding-top: 25px;
+      }
+      p {
+        font-size: 12px;
+        color: grey;
+        width: 220px;
+      }
+
+    }
+  }
+}
+/*fin scss sixième section*/
+/*début scss septième section*/
+.section7 {
+  color: white;
+  h1 {
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+  p {
+      padding-bottom: 50px;
+  }
+  .btn-learn {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #333647;
+  font-size: 13px;
+  background: #ffffff;
+  padding: 13px 22px 13px 22px;
+  text-decoration: none;
+  }
+  .col1 {
+    background-color: blue;
+    height: 600px;
+    padding: 70px 100px 70px 100px;
+  }
+  .col2 {
+    background-color: green;
+    height: 600px;
+    padding: 70px 100px 70px 100px;
+  }
+  .col3 {
+    background-color: black;
+    height: 600px;
+    padding: 70px 100px 70px 100px;
+  }
+}
+/*fin scss setpième section*/
+/*début scss huitième section*/
+.section8 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+
+  .image-phone {
+    width: 30%;
+    margin-left: 150px;
+    img {
+      width: 350px;
+      height: 460px;
+    }
+  }
+  .text {
+    width: 40%;
+    margin-left: 90px;
+
+      h5 {
+        font-size: 20px;
+        color: grey;
+        padding-bottom: 10px;
+      }
+      h1 {
+        font-size: 35px;
+        font-weight: bold;
+        padding-bottom: 40px;
       }
       p {
         font-size: 15px;
         color: grey;
+        padding-bottom: 20px;
       }
-    }
+      .button-header {
+        background: #002bff;
+        background-image: -webkit-linear-gradient(top, #002bff, #2b3db8);
+        background-image: -moz-linear-gradient(top, #002bff, #2b3db8);
+        background-image: -ms-linear-gradient(top, #002bff, #2b3db8);
+        background-image: -o-linear-gradient(top, #002bff, #2b3db8);
+        background-image: linear-gradient(to bottom, #002bff, #2b3db8);
+        -webkit-border-radius: 5;
+        -moz-border-radius: 5;
+        border-radius: 5px;
+        font-family: 'Roboto', sans-serif;
+        color: #ffffff;
+        font-size: 10px;
+        padding: 12px 20px 12px 20px;
+        text-decoration: none;
+        font-weight: bold;
+      }
   }
 }
+/*fin scss huitième section*/
+/*début scss neuvième section*/
+ .section9 {
+
+   width:100%;
+   background-color: black;
+   color: white;
+
+    .container {
+      width: 80%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      height: 300px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .projects {
+      width: 220px;
+      height: 180px;
+      border: 1px white solid;
+      text-align: center;
+      h4 {
+        font-weight: bold;
+        font-size: 25px;
+        padding-top: 15px;
+      }
+      h5 {
+        font-size: 20px;
+      }
+    }
+    .coffee {
+      width: 220px;
+      height: 180px;
+      border: 1px white solid;
+      text-align: center;
+      vertical-align: center;
+    }
+    .text {
+      height: 180px;
+      width: 500px;
+      padding-left: 15px;
+
+      h5 {
+        font-size: 20px;
+        }
+        h1 {
+          font-size: 35px;
+        }
+    }
+ }
