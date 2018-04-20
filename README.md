@@ -1,2 +1,5 @@
 # website-template-pro
-https://maxco41.github.io/website-template-pro/home-main.html
+
+Exercice qui consiste à reproduire des onepages grâce à SASS.
+
+https://maxco41.github.io/website-template-pro/HTML/home-main.html
